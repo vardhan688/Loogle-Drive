@@ -1,0 +1,34 @@
+.card {
+    color: black;
+    font-size: 15px;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#b1{
+	float: left;
+	margin-right: 10px;
+}
+
+#b2{
+	float: left;
+	margin-right:10px;
+}
+
+#b3{
+	float: left;
+	margin-right:10px;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    color: white;
+}
