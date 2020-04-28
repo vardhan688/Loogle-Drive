@@ -7,7 +7,7 @@ class App extends Component {
     render() {
         return (
           <div id="title">
-            <center><h1>Cloud Drive - Free file storage</h1></center>
+            <center><h1>Loogle Drive - Free file storage</h1></center>
             <FileUpload />
             <File files={this.state.files} />
           </div>
